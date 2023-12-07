@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAUL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <!--FONTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="backgroundColor">
+        <a href="menu.html" id="teste">
+            <img src="imagens\logo.png" alt="logo" id="logo">
+        </a>
+        <section id="container" class="container">
+            <div id="flex-column">
+                <h1>MENU</h1>
+                <ul>
+                    <li class="itens" id="comecar">
+                        <div id="botaoComecar">
+                            Começar
+                        </div>
+                    </li>
+                    <!-- abir janelinha das fases -->
+                    <li class="itens" id="fases">
+                        <div id="openModalBtn">Fases</div>
+                        <!-- janelinha das fases -->
+                        <div id="myModal" class="modal">
+                            <div class="janela-fases-conteudo">
+                                <span class="fechar" id="fecharModalBtn">&times;</span>
+                                <h2 id="escolher-fases"></h2>
+                                <div id="fasesContainer"></div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="itens" id="sobre">
+                        <div id="botaoSobre">Sobre</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div id="texto">
+            <p>Desenvolvido para fins educacionais - Etec Tereza Aparecida Cardoso Nunes de Oliveira</p>
+        </div>
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>
