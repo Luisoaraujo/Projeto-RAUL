@@ -20,6 +20,7 @@ html {
     rgba(2, 0, 36, 1) 97%
   );
   font-size: x-large;
+  overflow-y: scroll;
 }
 
 #voltar {
